@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Opa from './components/Opa';
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 function App() {
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Opa />
+      <SayMyName nome="Roberto" />
+      <Pessoa 
+        nome="Roberto"
+        idade="42" 
+        profissao="Alfaiateiro"
+        foto="https://s2.glbimg.com/qa6F3rMoH20EIKYDa9NCWWP175s=/0x0:1024x677/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/m/x/jC8DO1TvANhrARtQX0hQ/robertocarlosleoaversa.jpg" 
+      />
     </div>
   );
 }
