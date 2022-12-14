@@ -1,0 +1,10 @@
+/* Aq vai ser a estilização independente do arquivo Frase.js; */
+/* é importante colocar o className do elemento que gostaria de estilizar, se não também afeta os dos outro 
+components */
+.Frase{
+    font-family: cursive;
+    background-color: beige;
+}
+.sansao{
+    color: aquamarine;
+}
